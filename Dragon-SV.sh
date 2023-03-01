@@ -86,7 +86,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  msg -bar2 
 
- echo -e " \e[97m\033[1;41m   =====>>►►  SCRIPT  VPS DARK  ◄◄<<=====      \033[1;37m\033[0m" 
+ echo -e " \e[97m\033[1;41m   =====>>►►  SCRIPT  DRAGON-SV  ◄◄<<=====      \033[1;37m\033[0m" 
 
  msg -bar2 
 
