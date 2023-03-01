@@ -266,7 +266,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  msg -bar2 
 
- msg -ama "     [ SCRIPT \033[1;97m VPS  DARK\033[1;33m ]" 
+ msg -ama "     [ SCRIPT \033[1;97m DRAGON-SV\033[1;33m ]" 
 
  msg -bar 
 
@@ -550,7 +550,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  clear 
 
- echo -e "\n\n\n\033[1;91m————————————————————————————————————————————————————\n      ¡ESTA KEY NO CONCUERDA CON EL INSTALADOR! \n      BOT: @CAT \n————————————————————————————————————————————————————\n\n\n" 
+ echo -e "\n\n\n\033[1;91m————————————————————————————————————————————————————\n      ¡ESTA KEY NO CONCUERDA CON EL INSTALADOR! \n      BOT: @Dragon_sv_bot \n————————————————————————————————————————————————————\n\n\n" 
 
  [[ -d /etc/VPS-MX ]] && rm -rf /etc/VPS-MX 
 
@@ -667,7 +667,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  echo -e "         COMANDO PRINCIPAL PARA ENTRAR AL PANEL " 
 
- echo -e "  \033[1;41m               sudo vpsdark             \033[0;37m" && msg -bar2 
+ echo -e "  \033[1;41m               menu             \033[0;37m" && msg -bar2 
 
  rm -rf /usr/bin/pytransform &> /dev/null 
 
@@ -785,7 +785,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  msg -bar 
 
- msg -ama " Notify-BOT (Notificasion Remota)|@VPSDARK_Noty_Bot " 
+ msg -ama " Notify-BOT (Notificasion Remota)|@dragon_notibot " 
 
  msg -bar 
 
@@ -801,7 +801,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  echo -e "\033[1;97m Inicie El BOT de Telegram" 
 
- echo -e "\033[1;92m ¡¡ Para sacar su ID entre al BOT @VPSDARK" 
+ echo -e "\033[1;92m ¡¡ Para sacar su ID entre al BOT @Dragon_sv_bot" 
 
  echo -e "\033[1;92m Aparesera algo parecido � → Tu ID es: 45145564   " 
 
@@ -873,7 +873,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  msg -bar2 
 
- msg -ama "     [ SCRIPT \033[1;97m  MOD LACASITAMX\033[1;33m ]" 
+ msg -ama "     [ SCRIPT \033[1;97m  DRAGON SV\033[1;33m ]" 
 
  msg -ama "  \033[1;96m      �Usar Ubuntu 20 a 64 De Preferencia� " 
 
@@ -967,7 +967,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  userid="${SCPdir}/ID" 
 
- #TOKEN="5935180805:AAHd0N9ube02JlsUrKWSVChOVsZGBtabSrw" 
+ #TOKEN="5958566931:AAF6cDiZwn7-2TuhUP8PTPZqe6p-jd0IClo" 
 
  #URL="https://api.telegram.org/bot$TOKEN/sendMessage" 
 
@@ -1029,9 +1029,9 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  [[ ${#id} -gt 2 ]] && echo "es" > ${SCPidioma} || echo "${id}" > ${SCPidioma} 
 
- echo -e "${cor[2]}         DESEAS INSTALAR NOTI-BOT?(Default n)" 
+ echo -e "${cor[2]}         DESEAS INSTALAR NOTI BOT?(Default n)" 
 
- echo -e "\033[1;34m  (Deves tener Telegram y el BOT: @DARK_MOD_Noty_Bot)" 
+ echo -e "\033[1;34m  (Deves tener Telegram y el BOT: @dragon_notibot)" 
 
  msg -bar2 
 
